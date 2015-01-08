@@ -12,7 +12,6 @@ html, body {
 .main {
     height: 50px;
     background: #D8D8D8;
-    padding: 1px 0; /*prevents margin collapsing*/
 }
 
 .menu {
@@ -42,6 +41,7 @@ html, body {
     background: #4A90E2;
     margin-top: 10px;
     margin-left: 10px;
+    float: left; /*prevents margin collapse*/
 }
 
 .content {
